@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+/* styling Index  */
+
+li,
+a {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+
+}
+
+#logo {
+  text-align: left;
+
+}
+
+.nav_links {
+  list-style: none;
+
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  font-size: 15px;
+}
+
+.nav_links li a:hover {
+  transition: all 0.3s ease 0s;
+}
+
+.foto_homepage img {
+  max-width: 100%;
+  height: auto;
+}
+
+.foto_home_page {
+  position: relative;
+}
+
+.foto_homepage_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.shop_button {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 2px;
+}
+
+input {
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 2px;
+
+}
+
+/* styling About */
+
+h2 {
+  color: black;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 60px;
+}
+
+
+
+.contact_button {
+  background-color: #ffe6ff;
+  color: black;
+  border-radius: 20px;
+  border-color: black;
+  font-size: 10px;
+  padding: 10px 18px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+
+}
+
+.contact_button:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.bg_img {
+  background-image: url("background.jpg");
+  min-height: 400px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+.text_centered {
+  position: absolute;
+  top: 100%;
+  left: 17%;
+  transform: translate(-10%, -100%);
+}
